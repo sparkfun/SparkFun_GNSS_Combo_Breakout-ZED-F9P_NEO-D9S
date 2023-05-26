@@ -27842,7 +27842,7 @@ disable LEDs</text>
 <wire x1="68.58" y1="121.92" x2="68.58" y2="0" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="30.48" y1="96.52" x2="35.56" y2="96.52" width="0.2032" layer="97" style="dashdot"/>
 <wire x1="35.56" y1="96.52" x2="35.56" y2="88.9" width="0.2032" layer="97" style="dashdot"/>
-<text x="63.5" y="190.5" size="2.54" layer="94" font="vector" align="center">L1/L2 Antenna </text>
+<text x="63.5" y="190.5" size="2.54" layer="94" font="vector" align="center">L1/L2/L-Band Antenna </text>
 <wire x1="124.46" y1="121.92" x2="147.32" y2="121.92" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="121.92" x2="187.96" y2="121.92" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="187.96" y1="121.92" x2="251.46" y2="121.92" width="0.1524" layer="97" style="shortdash"/>
@@ -27913,22 +27913,15 @@ https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm
 Ground is on layer 2. Prepreg thickness: 0.2mm. Er = 4.6
 12.5 mil track with 5 mil gap = 50 Ohms
 </text>
-<text x="427.482" y="91.948" size="1.778" layer="97" font="vector" align="top-right">USB Track Impedance: Differential Pair
-https://saturnpcb.com/saturn-pcb-toolkit/
-Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
-10.5 mil track with 9.5 mil gap (20 mil center to center) = 90 Ohms
-</text>
 <wire x1="332.74" y1="195.58" x2="332.74" y2="279.4" width="0.1524" layer="97" style="shortdash"/>
 <text x="292.1" y="271.78" size="2.54" layer="94" font="vector" align="center">UART2 Link for PMP Corrections
 ZED-F9P &lt;-&gt; NEO-D9S</text>
 <text x="331.978" y="7.366" size="2.54" layer="94" font="vector">Revised By: Elias Santistevan</text>
-<text x="427.482" y="104.648" size="1.778" layer="97" font="vector" align="top-right">USB Track Impedance: Differential Pair
+<text x="427.482" y="91.948" size="1.778" layer="97" font="vector" align="top-right">USB Track Impedance: Differential Pair
 https://saturnpcb.com/saturn-pcb-toolkit/
 Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 8 mil track with 5 mil gap (13 mil center to center) = 90 Ohms
 </text>
-<text x="358.14" y="88.9" size="2.54" layer="94" font="vector" align="center">OLD:</text>
-<text x="358.14" y="101.6" size="2.54" layer="94" font="vector" align="center">NEW:</text>
 </plain>
 <instances>
 <instance part="JP31" gate="G$1" x="424.18" y="45.72" smashed="yes"/>
@@ -28086,8 +28079,8 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <instance part="GND9" gate="1" x="314.96" y="139.7" smashed="yes">
 <attribute name="VALUE" x="314.96" y="139.446" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND17" gate="1" x="322.58" y="149.86" smashed="yes">
-<attribute name="VALUE" x="322.58" y="149.606" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND17" gate="1" x="327.66" y="139.7" smashed="yes">
+<attribute name="VALUE" x="327.66" y="139.446" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R11" gate="G$1" x="213.36" y="238.76" smashed="yes">
 <attribute name="NAME" x="209.042" y="236.474" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -28352,8 +28345,8 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <instance part="GND31" gate="1" x="314.96" y="96.52" smashed="yes">
 <attribute name="VALUE" x="314.96" y="96.266" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND32" gate="1" x="325.12" y="106.68" smashed="yes">
-<attribute name="VALUE" x="325.12" y="106.426" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND32" gate="1" x="335.28" y="96.52" smashed="yes">
+<attribute name="VALUE" x="335.28" y="96.266" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="GND33" gate="1" x="297.18" y="104.14" smashed="yes">
 <attribute name="VALUE" x="297.18" y="103.886" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -28361,8 +28354,8 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <instance part="SUPPLY11" gate="G$1" x="297.18" y="170.18" smashed="yes">
 <attribute name="VALUE" x="297.18" y="172.974" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY20" gate="G$1" x="345.44" y="167.64" smashed="yes">
-<attribute name="VALUE" x="345.44" y="170.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY20" gate="G$1" x="327.66" y="167.64" smashed="yes">
+<attribute name="VALUE" x="327.66" y="170.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY21" gate="G$1" x="381" y="165.1" smashed="yes">
 <attribute name="VALUE" x="381" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -28439,16 +28432,16 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <attribute name="VALUE" x="55.88" y="73.914" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="353.06" y="35.56" smashed="yes"/>
-<instance part="U5" gate="U1" x="335.28" y="116.84" smashed="yes" rot="R270">
-<attribute name="NAME" x="330.454" y="122.174" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="330.2" y="109.22" size="1.778" layer="96" font="vector"/>
+<instance part="U5" gate="U1" x="335.28" y="109.22" smashed="yes">
+<attribute name="NAME" x="345.186" y="108.966" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="355.6" y="106.68" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="U6" gate="U1" x="335.28" y="160.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="330.2" y="165.1" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="330.2" y="152.4" size="1.778" layer="96" font="vector"/>
+<instance part="U6" gate="U1" x="327.66" y="152.4" smashed="yes">
+<attribute name="NAME" x="337.058" y="154.432" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="347.98" y="149.86" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="SUPPLY26" gate="G$1" x="345.44" y="124.46" smashed="yes">
-<attribute name="VALUE" x="345.44" y="127.254" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY26" gate="G$1" x="335.28" y="124.46" smashed="yes">
+<attribute name="VALUE" x="335.28" y="127.254" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="U$77" gate="U1" x="154.94" y="165.1" smashed="yes">
 <attribute name="NAME" x="147.32" y="170.18" size="1.778" layer="95" font="vector"/>
@@ -28629,9 +28622,8 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="322.58" y1="160.02" x2="322.58" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="144.78" x2="327.66" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="U6" gate="U1" pin="VSS"/>
-<wire x1="322.58" y1="160.02" x2="327.66" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R12" gate="R1" pin="1"/>
@@ -28768,8 +28760,7 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 </segment>
 <segment>
 <pinref part="U5" gate="U1" pin="VSS"/>
-<wire x1="327.66" y1="116.84" x2="325.12" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="116.84" x2="325.12" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="101.6" x2="335.28" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -28831,24 +28822,6 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <wire x1="99.06" y1="88.9" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="I2C" gate="G$1" pin="3"/>
 <wire x1="99.06" y1="91.44" x2="101.6" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="USB_D-" class="4">
-<segment>
-<wire x1="320.04" y1="162.56" x2="320.04" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="USB-ZED" gate="J1" pin="D-"/>
-<wire x1="294.64" y1="162.56" x2="320.04" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="U6" gate="U1" pin="IO2"/>
-<wire x1="327.66" y1="157.48" x2="320.04" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="USB_D+" class="4">
-<segment>
-<pinref part="USB-ZED" gate="J1" pin="D+"/>
-<pinref part="U6" gate="U1" pin="IO1"/>
-<wire x1="322.58" y1="165.1" x2="294.64" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="162.56" x2="322.58" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="162.56" x2="322.58" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ANT" class="0">
@@ -28943,9 +28916,13 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <label x="152.4" y="223.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="347.98" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="342.9" y1="114.3" x2="347.98" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="USB-NEO" gate="J1" pin="D-"/>
+<wire x1="294.64" y1="119.38" x2="337.82" y2="119.38" width="0.1524" layer="91"/>
+<label x="340.36" y="119.38" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="337.82" y1="116.84" x2="337.82" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="119.38" x2="340.36" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U5" gate="U1" pin="IO3"/>
+<junction x="337.82" y="119.38"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -29100,9 +29077,13 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <label x="152.4" y="226.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="347.98" y="119.38" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="342.9" y1="119.38" x2="347.98" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="USB-NEO" gate="J1" pin="D+"/>
+<wire x1="332.74" y1="121.92" x2="294.64" y2="121.92" width="0.1524" layer="91"/>
+<label x="340.36" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="332.74" y1="116.84" x2="332.74" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="121.92" x2="340.36" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U5" gate="U1" pin="IO4"/>
+<junction x="332.74" y="121.92"/>
 </segment>
 </net>
 <net name="D+_ZED" class="4">
@@ -29112,9 +29093,13 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <label x="22.86" y="233.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="347.98" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="342.9" y1="162.56" x2="347.98" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="USB-ZED" gate="J1" pin="D+"/>
+<wire x1="325.12" y1="165.1" x2="294.64" y2="165.1" width="0.1524" layer="91"/>
+<label x="332.74" y="165.1" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="325.12" y1="160.02" x2="325.12" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="165.1" x2="332.74" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U6" gate="U1" pin="IO4"/>
+<junction x="325.12" y="165.1"/>
 </segment>
 </net>
 <net name="D-_ZED" class="4">
@@ -29124,9 +29109,13 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <label x="22.86" y="231.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="347.98" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="342.9" y1="157.48" x2="347.98" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="USB-ZED" gate="J1" pin="D-"/>
+<wire x1="294.64" y1="162.56" x2="330.2" y2="162.56" width="0.1524" layer="91"/>
+<label x="332.74" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="330.2" y1="160.02" x2="330.2" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="162.56" x2="332.74" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U6" gate="U1" pin="IO3"/>
+<junction x="330.2" y="162.56"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -29535,24 +29524,6 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <wire x1="220.98" y1="167.64" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="USB_D-1" class="4">
-<segment>
-<wire x1="320.04" y1="119.38" x2="320.04" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="USB-NEO" gate="J1" pin="D-"/>
-<wire x1="294.64" y1="119.38" x2="320.04" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U5" gate="U1" pin="IO2"/>
-<wire x1="320.04" y1="114.3" x2="327.66" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="USB_D+1" class="4">
-<segment>
-<pinref part="USB-NEO" gate="J1" pin="D+"/>
-<wire x1="325.12" y1="121.92" x2="294.64" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U5" gate="U1" pin="IO1"/>
-<wire x1="327.66" y1="119.38" x2="325.12" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="119.38" x2="325.12" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="R33" gate="R1" pin="2"/>
@@ -29577,9 +29548,8 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <wire x1="297.18" y1="167.64" x2="297.18" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="342.9" y1="160.02" x2="345.44" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY20" gate="G$1" pin="V_USB"/>
-<wire x1="345.44" y1="160.02" x2="345.44" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="160.02" x2="327.66" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="U6" gate="U1" pin="VCC"/>
 </segment>
 <segment>
@@ -29604,9 +29574,8 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 </segment>
 <segment>
 <pinref part="U5" gate="U1" pin="VCC"/>
-<wire x1="342.9" y1="116.84" x2="345.44" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY26" gate="G$1" pin="V_USB_2"/>
-<wire x1="345.44" y1="124.46" x2="345.44" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="124.46" x2="335.28" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SHIELD_ZED" class="0">
