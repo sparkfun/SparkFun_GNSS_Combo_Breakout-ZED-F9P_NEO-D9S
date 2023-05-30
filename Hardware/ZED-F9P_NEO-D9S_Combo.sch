@@ -27821,7 +27821,7 @@ high temperature heat resistance.
 <part name="U5" library="SparkFun-DiscreteSemi" deviceset="TVS_DIODE_ARRAY" device="_DT1042-04SO-7" value="ESD Diode"/>
 <part name="U6" library="SparkFun-DiscreteSemi" deviceset="TVS_DIODE_ARRAY" device="_DT1042-04SO-7" value="ESD Diode"/>
 <part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="V_USB_2" device=""/>
-<part name="U$77" library="SparkFun-RF" deviceset="BP2G1+_POWER_SPLITTER" device=""/>
+<part name="U7" library="SparkFun-RF" deviceset="BP2G1+_POWER_SPLITTER" device=""/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_5MM" value="QWIIC_LOGO_5MM"/>
 </parts>
@@ -28443,9 +28443,9 @@ Prepreg thickness: 0.2mm (7.1 mil). Er = 4.6
 <instance part="SUPPLY26" gate="G$1" x="335.28" y="124.46" smashed="yes">
 <attribute name="VALUE" x="335.28" y="127.254" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="U$77" gate="U1" x="154.94" y="165.1" smashed="yes">
-<attribute name="NAME" x="147.32" y="170.18" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="147.32" y="157.48" size="1.778" layer="96" font="vector"/>
+<instance part="U7" gate="U1" x="154.94" y="165.1" smashed="yes">
+<attribute name="NAME" x="147.32" y="170.18" size="1.778" layer="95"/>
+<attribute name="VALUE" x="147.32" y="157.48" size="1.778" layer="96"/>
 </instance>
 <instance part="GND24" gate="1" x="142.24" y="157.48" smashed="yes">
 <attribute name="VALUE" x="142.24" y="157.226" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -28767,7 +28767,7 @@ Prepreg thickness: 0.2mm (7.1 mil). Er = 4.6
 <wire x1="144.78" y1="162.56" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 <wire x1="142.24" y1="162.56" x2="142.24" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="U$77" gate="U1" pin="GND"/>
+<pinref part="U7" gate="U1" pin="GND"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -28833,7 +28833,7 @@ Prepreg thickness: 0.2mm (7.1 mil). Er = 4.6
 <segment>
 <wire x1="144.78" y1="167.64" x2="142.24" y2="167.64" width="0.1524" layer="91"/>
 <label x="142.24" y="167.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$77" gate="U1" pin="S"/>
+<pinref part="U7" gate="U1" pin="S"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -29142,7 +29142,7 @@ Prepreg thickness: 0.2mm (7.1 mil). Er = 4.6
 <segment>
 <wire x1="165.1" y1="162.56" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
 <label x="167.64" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$77" gate="U1" pin="2"/>
+<pinref part="U7" gate="U1" pin="2"/>
 </segment>
 </net>
 <net name="ANT_ZED" class="0">
@@ -29154,7 +29154,7 @@ Prepreg thickness: 0.2mm (7.1 mil). Er = 4.6
 <segment>
 <wire x1="165.1" y1="167.64" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
 <label x="167.64" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$77" gate="U1" pin="1"/>
+<pinref part="U7" gate="U1" pin="1"/>
 </segment>
 </net>
 <net name="V_BKCP" class="0">
