@@ -27807,8 +27807,8 @@ high temperature heat resistance.
 <part name="!SAFEBOOT_NEO!" library="SparkFun-Connectors" deviceset="TEST-POINT" device="POGO_PTH"/>
 <part name="J9" library="SparkFun-Connectors" deviceset="I2C_STANDARD" device="_NO_SILK"/>
 <part name="J10" library="SparkFun-Connectors" deviceset="I2C_STANDARD" device="_NO_SILK"/>
-<part name="J8" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_FEMALE_PTH"/>
-<part name="J7" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_FEMALE_PTH"/>
+<part name="J8" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_NO_POP"/>
+<part name="J7" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_NO_POP"/>
 <part name="V_BKCP" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND35" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>

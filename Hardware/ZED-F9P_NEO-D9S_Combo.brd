@@ -18286,12 +18286,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J8" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="24.13" y="1.27" smashed="yes">
 <attribute name="NAME" x="22.86" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="24.13" y="1.27" size="1.778" layer="27" ratio="15" display="off"/>
 <attribute name="VALUE" x="22.86" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J7" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="24.13" y="62.23" smashed="yes">
 <attribute name="NAME" x="22.86" y="63.627" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="24.13" y="62.23" size="1.778" layer="27" ratio="15" display="off"/>
 <attribute name="VALUE" x="22.86" y="60.198" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="U$8" library="output" package="#SDA#0" value="" x="16.51" y="61.722" smashed="yes" rot="R270"/>
