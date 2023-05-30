@@ -27919,7 +27919,7 @@ ZED-F9P &lt;-&gt; NEO-D9S</text>
 <text x="331.978" y="7.366" size="2.54" layer="94" font="vector">Revised By: Elias Santistevan</text>
 <text x="427.482" y="91.948" size="1.778" layer="97" font="vector" align="top-right">USB Track Impedance: Differential Pair
 https://saturnpcb.com/saturn-pcb-toolkit/
-Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
+Prepreg thickness: 0.2mm (7.1 mil). Er = 4.6
 8 mil track with 5 mil gap (13 mil center to center) = 90 Ohms
 </text>
 </plain>
@@ -28090,8 +28090,8 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <attribute name="NAME" x="209.042" y="233.934" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="217.932" y="233.934" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="J1" gate="G$1" x="35.56" y="175.26" smashed="yes" rot="MR0">
-<attribute name="NAME" x="40.132" y="176.53" size="1.778" layer="95" font="vector" rot="MR0"/>
+<instance part="J1" gate="G$1" x="35.56" y="177.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="40.132" y="179.07" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="J5" gate="J1" x="180.34" y="22.86" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="185.42" y="12.954" size="1.778" layer="96" font="vector" rot="MR0"/>
@@ -28170,8 +28170,8 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <attribute name="VALUE" x="76.2" y="166.37" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="C7" gate="G$1" x="73.66" y="172.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="70.739" y="174.244" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="75.819" y="174.244" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="NAME" x="72.136" y="179.959" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="72.136" y="177.419" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="330.2" y="0" smashed="yes">
@@ -28667,7 +28667,7 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<wire x1="33.02" y1="172.72" x2="33.02" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="175.26" x2="33.02" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
@@ -29061,6 +29061,7 @@ Prepreg thickness: 0.2mm (7.87 mil). Er = 4.6
 <wire x1="45.72" y1="170.18" x2="45.72" y2="172.72" width="0.1524" layer="91"/>
 <junction x="45.72" y="172.72"/>
 <pinref part="J1" gate="G$1" pin="SIGNAL"/>
+<wire x1="35.56" y1="175.26" x2="35.56" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="172.72" x2="45.72" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="L1" gate="L1" pin="1"/>
 <wire x1="68.58" y1="165.1" x2="66.04" y2="165.1" width="0.1524" layer="91"/>
