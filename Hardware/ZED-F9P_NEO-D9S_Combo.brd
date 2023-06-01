@@ -17,8 +17,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -18147,11 +18147,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$14" library="top" package="L#BAND18" value="" x="38.227" y="37.084" smashed="yes"/>
 <element name="U$73" library="top" package="OPEN_JUMPERS13" value="" x="22.225" y="50.927" smashed="yes" rot="MR90"/>
 <element name="U$74" library="top" package="TO_ISOLATE_UART214" value="" x="20.828" y="50.927" smashed="yes" rot="MR90"/>
-<element name="U$76" library="top" package="DEF_ADDRESS#_12" value="" x="8.89" y="53.34" smashed="yes" rot="MR90"/>
-<element name="U$79" library="top" package="NEO#D9S#13" value="" x="7.62" y="51.054" smashed="yes" rot="MR90"/>
-<element name="U$80" library="top" package="ZED#F9P#13" value="" x="6.35" y="51.181" smashed="yes" rot="MR90"/>
-<element name="U$81" library="top" package="0X4313" value="" x="7.62" y="56.769" smashed="yes" rot="MR90"/>
-<element name="U$82" library="top" package="0X4213" value="" x="6.35" y="56.769" smashed="yes" rot="MR90"/>
+<element name="U$76" library="top" package="DEF_ADDRESS#_12" value="" x="9.144" y="53.34" smashed="yes" rot="MR90"/>
+<element name="U$79" library="top" package="NEO#D9S#13" value="" x="7.874" y="51.054" smashed="yes" rot="MR90"/>
+<element name="U$80" library="top" package="ZED#F9P#13" value="" x="6.604" y="51.181" smashed="yes" rot="MR90"/>
+<element name="U$81" library="top" package="0X4313" value="" x="7.874" y="56.769" smashed="yes" rot="MR90"/>
+<element name="U$82" library="top" package="0X4213" value="" x="6.604" y="56.769" smashed="yes" rot="MR90"/>
 <element name="LOGO6" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="8.89" y="56.769" smashed="yes"/>
 </elements>
 <signals>

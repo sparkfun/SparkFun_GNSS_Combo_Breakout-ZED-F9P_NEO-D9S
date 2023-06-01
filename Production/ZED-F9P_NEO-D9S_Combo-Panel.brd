@@ -9,6 +9,8 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -18277,11 +18279,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$14" library="top" package="L#BAND18" value="" x="38.227" y="37.084" smashed="yes"/>
 <element name="U$73" library="top" package="OPEN_JUMPERS13" value="" x="22.225" y="50.927" smashed="yes" rot="MR90"/>
 <element name="U$74" library="top" package="TO_ISOLATE_UART214" value="" x="20.828" y="50.927" smashed="yes" rot="MR90"/>
-<element name="U$76" library="top" package="DEF_ADDRESS#_12" value="" x="8.89" y="53.34" smashed="yes" rot="MR90"/>
-<element name="U$79" library="top" package="NEO#D9S#13" value="" x="7.62" y="51.054" smashed="yes" rot="MR90"/>
-<element name="U$80" library="top" package="ZED#F9P#13" value="" x="6.35" y="51.181" smashed="yes" rot="MR90"/>
-<element name="U$81" library="top" package="0X4313" value="" x="7.62" y="56.769" smashed="yes" rot="MR90"/>
-<element name="U$82" library="top" package="0X4213" value="" x="6.35" y="56.769" smashed="yes" rot="MR90"/>
+<element name="U$76" library="top" package="DEF_ADDRESS#_12" value="" x="9.144" y="53.34" smashed="yes" rot="MR90"/>
+<element name="U$79" library="top" package="NEO#D9S#13" value="" x="7.874" y="51.054" smashed="yes" rot="MR90"/>
+<element name="U$80" library="top" package="ZED#F9P#13" value="" x="6.604" y="51.181" smashed="yes" rot="MR90"/>
+<element name="U$81" library="top" package="0X4313" value="" x="7.874" y="56.769" smashed="yes" rot="MR90"/>
+<element name="U$82" library="top" package="0X4213" value="" x="6.604" y="56.769" smashed="yes" rot="MR90"/>
 <element name="LOGO6" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="8.89" y="56.769" smashed="yes"/>
 <element name="JP1" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="48.768" y="60.9346" smashed="yes"/>
 <element name="JP2" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="86.868" y="60.9346" smashed="yes"/>
@@ -18762,11 +18764,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$153" library="top" package="L#BAND18" value="" x="84.455" y="37.084" smashed="yes"/>
 <element name="U$154" library="top" package="OPEN_JUMPERS13" value="" x="68.453" y="50.927" smashed="yes" rot="MR90"/>
 <element name="U$155" library="top" package="TO_ISOLATE_UART214" value="" x="67.056" y="50.927" smashed="yes" rot="MR90"/>
-<element name="U$156" library="top" package="DEF_ADDRESS#_12" value="" x="55.118" y="53.34" smashed="yes" rot="MR90"/>
-<element name="U$157" library="top" package="NEO#D9S#13" value="" x="53.848" y="51.054" smashed="yes" rot="MR90"/>
-<element name="U$158" library="top" package="ZED#F9P#13" value="" x="52.578" y="51.181" smashed="yes" rot="MR90"/>
-<element name="U$159" library="top" package="0X4313" value="" x="53.848" y="56.769" smashed="yes" rot="MR90"/>
-<element name="U$160" library="top" package="0X4213" value="" x="52.578" y="56.769" smashed="yes" rot="MR90"/>
+<element name="U$156" library="top" package="DEF_ADDRESS#_12" value="" x="55.372" y="53.34" smashed="yes" rot="MR90"/>
+<element name="U$157" library="top" package="NEO#D9S#13" value="" x="54.102" y="51.054" smashed="yes" rot="MR90"/>
+<element name="U$158" library="top" package="ZED#F9P#13" value="" x="52.832" y="51.181" smashed="yes" rot="MR90"/>
+<element name="U$159" library="top" package="0X4313" value="" x="54.102" y="56.769" smashed="yes" rot="MR90"/>
+<element name="U$160" library="top" package="0X4213" value="" x="52.832" y="56.769" smashed="yes" rot="MR90"/>
 <element name="LOGO10" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="55.118" y="56.769" smashed="yes"/>
 <element name="JP9" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="124.9426" smashed="yes"/>
 <element name="JP10" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="40.64" y="124.9426" smashed="yes"/>
@@ -19247,11 +19249,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$233" library="top" package="L#BAND18" value="" x="38.227" y="101.092" smashed="yes"/>
 <element name="U$234" library="top" package="OPEN_JUMPERS13" value="" x="22.225" y="114.935" smashed="yes" rot="MR90"/>
 <element name="U$235" library="top" package="TO_ISOLATE_UART214" value="" x="20.828" y="114.935" smashed="yes" rot="MR90"/>
-<element name="U$236" library="top" package="DEF_ADDRESS#_12" value="" x="8.89" y="117.348" smashed="yes" rot="MR90"/>
-<element name="U$237" library="top" package="NEO#D9S#13" value="" x="7.62" y="115.062" smashed="yes" rot="MR90"/>
-<element name="U$238" library="top" package="ZED#F9P#13" value="" x="6.35" y="115.189" smashed="yes" rot="MR90"/>
-<element name="U$239" library="top" package="0X4313" value="" x="7.62" y="120.777" smashed="yes" rot="MR90"/>
-<element name="U$240" library="top" package="0X4213" value="" x="6.35" y="120.777" smashed="yes" rot="MR90"/>
+<element name="U$236" library="top" package="DEF_ADDRESS#_12" value="" x="9.144" y="117.348" smashed="yes" rot="MR90"/>
+<element name="U$237" library="top" package="NEO#D9S#13" value="" x="7.874" y="115.062" smashed="yes" rot="MR90"/>
+<element name="U$238" library="top" package="ZED#F9P#13" value="" x="6.604" y="115.189" smashed="yes" rot="MR90"/>
+<element name="U$239" library="top" package="0X4313" value="" x="7.874" y="120.777" smashed="yes" rot="MR90"/>
+<element name="U$240" library="top" package="0X4213" value="" x="6.604" y="120.777" smashed="yes" rot="MR90"/>
 <element name="LOGO15" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="8.89" y="120.777" smashed="yes"/>
 <element name="JP17" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="48.768" y="124.9426" smashed="yes"/>
 <element name="JP18" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="86.868" y="124.9426" smashed="yes"/>
@@ -19732,11 +19734,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$313" library="top" package="L#BAND18" value="" x="84.455" y="101.092" smashed="yes"/>
 <element name="U$314" library="top" package="OPEN_JUMPERS13" value="" x="68.453" y="114.935" smashed="yes" rot="MR90"/>
 <element name="U$315" library="top" package="TO_ISOLATE_UART214" value="" x="67.056" y="114.935" smashed="yes" rot="MR90"/>
-<element name="U$316" library="top" package="DEF_ADDRESS#_12" value="" x="55.118" y="117.348" smashed="yes" rot="MR90"/>
-<element name="U$317" library="top" package="NEO#D9S#13" value="" x="53.848" y="115.062" smashed="yes" rot="MR90"/>
-<element name="U$318" library="top" package="ZED#F9P#13" value="" x="52.578" y="115.189" smashed="yes" rot="MR90"/>
-<element name="U$319" library="top" package="0X4313" value="" x="53.848" y="120.777" smashed="yes" rot="MR90"/>
-<element name="U$320" library="top" package="0X4213" value="" x="52.578" y="120.777" smashed="yes" rot="MR90"/>
+<element name="U$316" library="top" package="DEF_ADDRESS#_12" value="" x="55.372" y="117.348" smashed="yes" rot="MR90"/>
+<element name="U$317" library="top" package="NEO#D9S#13" value="" x="54.102" y="115.062" smashed="yes" rot="MR90"/>
+<element name="U$318" library="top" package="ZED#F9P#13" value="" x="52.832" y="115.189" smashed="yes" rot="MR90"/>
+<element name="U$319" library="top" package="0X4313" value="" x="54.102" y="120.777" smashed="yes" rot="MR90"/>
+<element name="U$320" library="top" package="0X4213" value="" x="52.832" y="120.777" smashed="yes" rot="MR90"/>
 <element name="LOGO20" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="55.118" y="120.777" smashed="yes"/>
 <element name="E$1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="9.398" y="129.6035" smashed="yes"/>
 <element name="E$2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="9.398" y="129.6035" smashed="yes" rot="MR0"/>
