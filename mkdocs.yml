@@ -5,27 +5,21 @@ site_url: https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D
 
 edit_uri: edit/main/docs/
 
+repo_url: https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S
+repo_name: sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/
+
 copyright:
   Copyright 2023 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun Electronics&#174;<br>
   <a href="https://goo.gl/maps/vkstCpQZW6jZMjzYA" target="_blank" rel="noopener">6333 Dry Creek Parkway, Niwot, Colorado 80503</a>
 
 # Configuration for webpage theme
 theme:
-  # Theme: https://squidfunk.github.io/mkdocs-material/
   name: material
-
-  # Header Logo
   logo: assets/sfe_logo_sm.png
-
-  # Icon in Browser Tab (must be square img - i.e. 32x32 pixels)
-  favicon: assets/sfe_logo_sq.png
-
-  # Page Font
+  favicon: assets/favicon.png
   font:
     text: Roboto
     code: Roboto Mono
-  
-  # Features to Include (ref. theme docsumentation)
   features:
 
     # Enable copy button on code blocks
@@ -38,24 +32,27 @@ theme:
     - content.action.edit
     # - content.action.view
 
-    # Enable Navigation buttons in footer (i.e. previous/next)
+    # Enable Navigation buttons in the footer (i.e. previous/next)
     - navigation.footer
 
     # Enables anchor tracking (updates page url with the section user is on)
     # i.e. https://docs.sparkfun.com/<page link>/#<sub-section>
     - navigation.tracking
+    - navigation.tabs.sticky
 
-    # Enables tabs for navigating website
+    # Enables tabs for navigating the website
     - navigation.tabs
-    # Keeps tabs visible in header when scrolling
+    # Keeps tabs visible in the header when scrolling
     - navigation.tabs.sticky
     
-    # Adds pop-up button just below header (when user starts to scroll up)
+    # Adds pop-up button just below the header (when the user starts to scroll up)
     # Allows users to easily jump to the beginning of the page
     - navigation.top
 
     # Renders path for page navigation at top of the page (makes page navigation more mobile friendly)
     - navigation.path
+
+
 
   # Adds light/dark theme to webpage
   palette:
@@ -65,7 +62,7 @@ theme:
       accent: red
       toggle:
         icon: material/brightness-auto
-        name: Switch to light mode
+        name: Switch to dark mode
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -74,7 +71,7 @@ theme:
       scheme: default 
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: Switch to system preference
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -83,9 +80,8 @@ theme:
       scheme: slate
       toggle:
         icon: material/weather-night
-        name: Switch to system preference    
+        name: Switch to light mode    
 
-  # Configures icons of callout boxes
   icon:
     # Sets repo icon to GitHub icon
     repo: fontawesome/brands/github
@@ -115,32 +111,27 @@ theme:
       code: fontawesome/regular/file-code
       terminal: octicons/terminal-16
       serial: fontawesome/solid/display
+      # Permalink icon
+      link: octicons/link-16
 
-  # Adds PDF icon to download hookup guide
-  custom_dir: docs/overrides
+# Adds PDF icon to download hookup guide
+  custom_dir: overrides
 
 
 # Included MkDocs plugins
 # Add the installation of any new plugins to the ./github/workflows/mkdocs.yml file also
 plugins:
   - search
-  # Add revision date
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
-  # Add git commiters at bottom of the page
-  - git-committers:
-      repository: sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S
-      branch: docs-test
-  # Add git authors at bottom of the page
-  - git-authors
-  # Enables use of Git submodules and larger code base
   - monorepo
+  # For PDF rendering
+#  - with-pdf:
+#      cover_subtitle: none
+#      cover_logo: assets/img/sfe_logo_sm.png
+#      exclude_pages: [ "print_pdf", "file_issue", "contribute" ]
+#      output_path: assets/SparkFun_6DoF_LSM6DSV16X-hookup_guide.pdf
 
 # Included Markdown extensions
 markdown_extensions:
-  - toc:
-      permalink: '🔗'
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -170,15 +161,9 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
-  - pymdownx.arithmatex:
-      generic: true
 
-
-# Configures social icons in footer
 extra:
   social:
-    - icon: sfe_logo # simple/sparkfun
-      link: https://www.sparkfun.com/products/20168
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/sparkfun
     - icon: fontawesome/brands/instagram
@@ -190,17 +175,14 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/sparkfun
 
-
 # Configures styling for PDF rendering and webpage layout
 extra_css:
   - overrides/extra.css
-
 
 nav:
   - Hookup Guide:
     - Introduction: index.md
     - Hardware Overview: hardware_overview.md
-    - Hardware Assembly: hardware_assembly.md
     - SparkFun GNSS Combo Breakout ZED-F9P/NEO-D9S Arduino Library:
       - Software Setup: software_overview.md
       - Arduino Examples: examples.md
@@ -209,6 +191,3 @@ nav:
     - Troubleshooting: troubleshooting.md
     - Submit Issues: file_issue.md
     - Contribute: contribute.md
-    
-    
-    
