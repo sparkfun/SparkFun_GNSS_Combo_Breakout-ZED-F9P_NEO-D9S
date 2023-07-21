@@ -185,8 +185,8 @@ nav:
     - Hardware Overview: hardware_overview.md
     - Hardware Assembly: hardware_assembly.md
     - SparkFun GNSS Combo Breakout ZED-F9P/NEO-D9S Arduino Library:
-      - Setup and Programming: software_setup_and_programming.md
       - Software Overview: software_overview.md
+      - Setup and Programming: software_setup_and_programming.md
   - Resources: resources.md
   - Support:
     - Troubleshooting: troubleshooting.md
