@@ -1,9 +1,12 @@
 ---
-icon: material/book-open-variant
+icon: fontawesome/solid/print
+# material/book-open-variant
 ---
+
+
+# Hard Copies
 
 Need to download or print our hookup guide?
 
-* [Print :fontawesome-solid-print:](../single_page) (Single-Page View)
-    * To save as a `*.pdf` file, select the **Printer** or **Destination** labeled ++"Save as PDF"++. *(Instructions will vary based on the browser)*
-<!-- * [Download :fontawesome-regular-file-pdf:](../hookup_guide.pdf) *(Beta - demonstration only)* -->
+* [Print :fontawesome-solid-print:](../single_page) *from Single-Page View*
+<!-- * [Download :fontawesome-regular-file-pdf:](../assets/board_files/hookup_guide.pdf) *(Beta - Mostly works, but some attributes may be broken.)* -->

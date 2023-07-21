@@ -1,6 +1,3 @@
-## Hardware Overview
-
-
 <center>
 [![Combo Breakout PCB](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Top.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Top.jpg)<br>
 *The Combo Breakout PCB. (Click to enlarge)*

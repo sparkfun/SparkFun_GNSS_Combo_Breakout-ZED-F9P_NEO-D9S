@@ -3,7 +3,7 @@ site_name: SparkFun GNSS Combo Breakout - ZED-F9P, NEO-D9S (Qwiic) Product Manua
 site_description: A hookup guide for the SparkFun GNSS Combo Breakout - ZED-F9P, NEO-D9S (Qwiic) (SPX-20167)
 site_url: https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S
 
-edit_uri: edit/main/docs/
+edit_uri: blob/main/docs/
 
 repo_url: https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S
 repo_name: sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/
@@ -162,6 +162,12 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
 
+  - toc:
+      permalink: ''
+      # Link: &#x1F517; 🔗
+      # Chain: &#x26D3; ⛓
+
+
 extra:
   social:
     - icon: fontawesome/brands/youtube
@@ -177,7 +183,7 @@ extra:
 
 # Configures styling for PDF rendering and webpage layout
 extra_css:
-  - overrides/extra.css
+  - stylesheet/extra.css
 
 nav:
   - Hookup Guide:
