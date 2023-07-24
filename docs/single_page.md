@@ -6,13 +6,13 @@ icon: fontawesome/solid/scroll
 ---
 
 # Introduction
---8<-- "./introduction.md"
+--8<-- "./docs/introduction.md"
 
 # Hardware Overview
---8<-- "./hardware_overview.md"
+--8<-- "./docs/hardware_overview.md"
 
 # Hardware Assembly
---8<-- "./hardware_assembly.md"
+--8<-- "./docs/hardware_assembly.md"
 
 # Software Overview
 --8<-- "./software_overview.md"
@@ -21,7 +21,7 @@ icon: fontawesome/solid/scroll
 --8<-- "./software_setup_and_programming.md"
 
 # Troubleshooting
---8<-- "./troubleshooting.md"
+--8<-- "./docs/troubleshooting.md"
 
 # Resources:
---8<-- "./resources.md"
+--8<-- "./docs/resources.md"
