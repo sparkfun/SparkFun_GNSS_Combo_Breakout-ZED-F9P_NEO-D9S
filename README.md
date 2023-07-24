@@ -35,7 +35,7 @@ u-blox provides products and services to "B2B Customers". Only business customer
 
 ## Documentation
 
-* **[Hookup Guide (mkdocs)](https://sparkfunx.github.io/u-blox_ZED-F9P_NEO-D9S_Combo_Breakout)** - Hookup guide for the SparkFun u-blox ZED-F9P NEO-D9S Combo Breakout hosted by GitHub pages.
+* **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/)** - Hookup guide for the SparkFun u-blox ZED-F9P NEO-D9S Combo Breakout hosted by GitHub pages.
 
 ## Product Versions
 
