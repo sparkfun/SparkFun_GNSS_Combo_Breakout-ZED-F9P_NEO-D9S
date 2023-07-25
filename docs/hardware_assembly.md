@@ -4,7 +4,11 @@ At a minimum, you will need to attach an external antenna to the SparkFun GNSS C
 
 Plug in one of our patch antennas with SMA connector to the GPS board. Secure the connection using the hex nut until it is finger-tight.
 
-<div class="center-block text-center"><a href="assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-InstallAntenna.jpg"><img src="assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-InstallAntenna.jpg" alt="Finger Tightening the SMA GPS Antenna to the SparkFun GNSS Combo Breakout ZED-F9P NEO-D9S Breakout"></a></div>
+<center>
+[![Finger Tightening the SMA GPS Antenna to the SparkFun GNSS Combo Breakout ZED-F9P NEO-D9S Breakout](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-InstallAntenna.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-InstallAntenna.jpg)<br>
+*Finger Tightening the SMA GPS Antenna to the SparkFun GNSS Combo Breakout ZED-F9P NEO-D9S Breakout. (Click to enlarge)*
+</center>
+
 
 <!--
 ### I<sup>2</sup>C
