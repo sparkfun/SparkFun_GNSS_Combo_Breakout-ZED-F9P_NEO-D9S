@@ -21,8 +21,13 @@ u-blox resources:
 * [Thingstream Login](https://portal.thingstream.io/)
 * [Thingstream Registration](https://portal.thingstream.io/register)
 
+Forums: 
 
-Or check out other [tutorials related to GPS and GNSS](https://learn.sparkfun.com/tutorials/tags/gps):
+* [SparkFun General Forums](https://forum.sparkfun.com/index.php)
+* [SparkFun GPS Forums](https://forum.sparkfun.com/viewforum.php?f=116)
+
+
+Check out other [tutorials related to GPS and GNSS](https://learn.sparkfun.com/tutorials/tags/gps):
 
 <table style="border-style:none">
     <tr>
