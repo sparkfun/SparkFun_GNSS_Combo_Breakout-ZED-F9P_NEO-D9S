@@ -26,7 +26,7 @@ u-blox provides products and services to "B2B Customers". Only business customer
 ## Repository Contents
 
 * **[/docs](/docs/)** - Online documentation files
-    * [board_files](/docs/board_files/) - Files for the product design
+    * [board_files](/docs/assets/board_files/) - Files for the product design
         * [Eagle design files](https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/blob/main/docs/assets/board_files/ZED-F9P_NEO-D9S_Combo_x02.zip) (.zip)
         * [Schematic](https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/blob/main/docs/assets/board_files/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S_Schematic.pdf) (.pdf)
         * [Dimensions](https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/blob/main/docs/assets/board_files/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S_Dimensions.png) (.png)
