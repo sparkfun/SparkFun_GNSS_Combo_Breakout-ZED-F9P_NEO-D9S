@@ -27,10 +27,9 @@ u-blox provides products and services to "B2B Customers". Only business customer
 
 * **[/docs](/docs/)** - Online documentation files
     * [board_files](/docs/board_files/) - Files for the product design
-        * [Eagle design files](/docs/board_files/ZED-F9P_NEO-D9S_Combo_x02.zip) (.zip)
-        * [Schematic](/docs/board_files/Schematic.pdf) (.pdf)
-        * [Dimensions](/docs/board_files/Dimensions.png) (.png)
-    * [img/hookup_guide/](/docs/img/hookup_guide/) - Images for hookup guide documentation
+        * [Eagle design files](https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/blob/main/docs/assets/board_files/ZED-F9P_NEO-D9S_Combo_x02.zip) (.zip)
+        * [Schematic](https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/blob/main/docs/assets/board_files/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S_Schematic.pdf) (.pdf)
+        * [Dimensions](https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/blob/main/docs/assets/board_files/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S_Dimensions.png) (.png)
 * **[/Hardware](/Hardware/)** - Eagle design files (.brd, .sch)
 
 ## Documentation
