@@ -88,7 +88,7 @@ The Combo Breakout has a single female SMA socket for the antenna connection. An
 </table>
 
 !!! warning
-  While we were able to get the <a href="https://www.sparkfun.com/products/15192">GNSS L1/L2 Multi-Band Magnetic Mount Antenna - 5m (SMA), ANN-MB-00</a> to work with the NEO-D9S in the US, it is not compatible with the Europe PointPerfect L-Band correction service. 
+    While we were able to get the <a href="https://www.sparkfun.com/products/15192">GNSS L1/L2 Multi-Band Magnetic Mount Antenna - 5m (SMA), ANN-MB-00</a> to work with the NEO-D9S in the US, it is not compatible with the Europe PointPerfect L-Band correction service. 
 
 
 ## Getting Started with Arduino
