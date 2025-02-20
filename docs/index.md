@@ -49,7 +49,7 @@ If you intend to use [u-blox's u-center (GNSS evaluation software for Windows)](
     <tr>
         <td>
             <a href="https://www.sparkfun.com/products/17751">
-                <center><img src="https://cdn.sparkfun.com//assets/parts/1/6/8/7/4/17587-L1_L2_GNSS_antenna_TOP106-09.jpg" alt="GNSS Multi-Band L1/L2 Surveying Antenna (TNC) - TOP106" height="140"></center>
+                <center><img src="https://cdn.sparkfun.com/assets/parts/1/6/8/7/4/17587-L1_L2_GNSS_antenna_TOP106-09-1.png" alt="GNSS Multi-Band L1/L2 Surveying Antenna (TNC) - TOP106" height="140"></center>
                 <h3 class="title">GNSS Multi-Band L1/L2 Surveying Antenna (TNC) - TOP106</h3>
             </a>
             GPS-17751
