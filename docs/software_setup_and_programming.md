@@ -64,11 +64,10 @@ The up-to-date frequencies are distributed via the MQTT **/pp/frequencies/Lb** t
 }
 ```
 
-We can add those to the code as follows:
+We can add that to the code as follows:
 
 ```C++
 const uint32_t myLBandFreq = 1556290000; // Uncomment this line to use the US SPARTN 1.8 service
-//const uint32_t myLBandFreq = 1545260000; // Uncomment this line to use the EU SPARTN 1.8 service
 ```
 
 The code to configure the NEO-D9S is as follows. Note that the **`UBLOX_CFG_PMP_USE_SERVICE_ID`**, **`UBLOX_CFG_PMP_SERVICE_ID`** and **`UBLOX_CFG_PMP_DESCRAMBLER_INIT`**
