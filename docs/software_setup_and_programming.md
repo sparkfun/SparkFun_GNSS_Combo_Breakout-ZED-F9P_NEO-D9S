@@ -49,7 +49,6 @@ The NEO-D9S needs to be configured so it can receive the PointPerfect correction
 | CFG-PMP-UNIQUE_WORD | 0xe15ae893e15ae893 |
 
 The centre frequency varies depending on which satellite is broadcasting corrections for your geographical area.
-The frequency for the USA is different to that for Europe:
 
 The up-to-date frequencies are distributed via the MQTT **/pp/frequencies/Lb** topic. At the time of writing, they are (in MHz):
 
@@ -59,11 +58,6 @@ The up-to-date frequencies are distributed via the MQTT **/pp/frequencies/Lb** t
     "us": {
       "current": {
         "value": "1556.29"
-      }
-    },
-    "eu": {
-      "current": {
-        "value": "1545.26"
       }
     }
   }

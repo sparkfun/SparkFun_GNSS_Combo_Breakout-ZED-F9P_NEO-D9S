@@ -23,7 +23,7 @@ The SparkFun GNSS Combo Breakout - ZED-F9P, NEO-D9S (Qwiic) (GPS-22560) combines
 </table>
 </div class>
 
-The Combo Breakout is designed to work with u-blox's PointPerfect L-band satellite GNSS augmentation service, which provides homogeneous coverage in contiguous USA and Europe.
+The Combo Breakout is designed to work with u-blox's PointPerfect L-band satellite GNSS augmentation service, which provides homogeneous coverage in contiguous USA.
 
 !!! attention
     u-blox provides products and services to "B2B Customers". Only business customers are eligible to register for a Thingstream (PointPerfect) account. You may be required to demonstrate that the use of the combo breakout is in relation to your trade, business, craft or profession. u-blox products and services are not intended for individual consumer use.
@@ -88,7 +88,7 @@ The Combo Breakout has a single female SMA socket for the antenna connection. An
 </table>
 
 !!! warning
-    While we were able to get the <a href="https://www.sparkfun.com/products/15192">GNSS L1/L2 Multi-Band Magnetic Mount Antenna - 5m (SMA), ANN-MB-00</a> to work with the NEO-D9S in the US, it is not compatible with the Europe PointPerfect L-Band correction service. 
+    While we were able to get the <a href="https://www.sparkfun.com/products/15192">GNSS L1/L2 Multi-Band Magnetic Mount Antenna - 5m (SMA), ANN-MB-00</a> to work with the NEO-D9S in the US, we recommend using a dedicated L1/L2/L-Band antenna for best results. 
 
 
 ## Getting Started with Arduino
