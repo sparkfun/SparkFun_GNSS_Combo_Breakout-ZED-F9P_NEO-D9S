@@ -17,7 +17,7 @@
 
 The [SparkFun u-blox ZED-F9P NEO-D9S Combo Breakout (GPS-22560)](https://www.sparkfun.com/products/22560) combines the u-blox ZED-F9P multi-band high precision GNSS module with the NEO-D9S L-band GNSS correction data receiver. With a clear view of the sky, especially a clear view to the South, this combo breakout will deliver centimeter-level accuracy positioning without needing separate RTK or NTRIP corrections.
 
-The Combo Breakout is designed to work with u-blox's PointPerfect L-band satellite GNSS augmentation service, which provides homogeneous coverage in contiguous USA and Europe.
+The Combo Breakout is designed to work with u-blox's PointPerfect L-band satellite GNSS augmentation service, which provides homogeneous coverage in contiguous USA.
 
 ### Important Note:
 
