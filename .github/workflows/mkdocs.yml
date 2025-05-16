@@ -30,8 +30,10 @@ jobs:
       - name: Set up build cache
         uses: actions/cache@v4
         with:
-          key: ${{ github.ref }}
+          key: mkdocs-material-${{ env.cache_id }}
           path: .cache
+          restore-keys: |
+            mkdocs-material-
 
       - name: Install Insiders build
         env:
