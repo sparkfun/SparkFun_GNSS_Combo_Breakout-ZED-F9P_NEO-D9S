@@ -5,18 +5,6 @@
          <lastmod>2025-05-16</lastmod>
     </url>
     <url>
-         <loc>https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/contribute/</loc>
-         <lastmod>2025-05-16</lastmod>
-    </url>
-    <url>
-         <loc>https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/file_issue/</loc>
-         <lastmod>2025-05-16</lastmod>
-    </url>
-    <url>
-         <loc>https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/hard_copy/</loc>
-         <lastmod>2025-05-16</lastmod>
-    </url>
-    <url>
          <loc>https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/hardware_assembly/</loc>
          <lastmod>2025-05-16</lastmod>
     </url>
@@ -25,11 +13,11 @@
          <lastmod>2025-05-16</lastmod>
     </url>
     <url>
-         <loc>https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/resources/</loc>
+         <loc>https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/print_view/</loc>
          <lastmod>2025-05-16</lastmod>
     </url>
     <url>
-         <loc>https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/single_page/</loc>
+         <loc>https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/resources/</loc>
          <lastmod>2025-05-16</lastmod>
     </url>
     <url>
@@ -42,6 +30,14 @@
     </url>
     <url>
          <loc>https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/troubleshooting/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/github/contribute/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/github/file_issue/</loc>
          <lastmod>2025-05-16</lastmod>
     </url>
 </urlset>
