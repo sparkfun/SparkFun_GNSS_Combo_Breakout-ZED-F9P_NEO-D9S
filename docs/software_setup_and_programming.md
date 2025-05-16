@@ -6,7 +6,7 @@
 SparkFun has an extensive library for its GNSS boards. You can obtain this library through the Arduino Library Manager by searching for "GNSS v3" and installing the latest version. If you prefer downloading libraries manually, you can grab them from the GitHub Repository.
 
 <center>
-	[u-blox GNSS Arduino Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3/archive/refs/heads/main.zip){ .md-button .md-button--primary }
+[u-blox GNSS Arduino Library :fontawesome-solid-cart-plus:{ .heart }](https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3/archive/refs/heads/main.zip){ .md-button .md-button--primary }
 </center>
 
 
@@ -146,19 +146,30 @@ The ZED-F9P can hold two dynamic keys: the current key; and the next key. We als
 
 You can find the current and next keys in the **`Location Services \ Location Things \ Thing Details \ Credentials`** tab in Thingstream:
 
-<center>
-[![L-band Dynamic Keys](assets/imgs/Dynamic_Keys.png){ width="600" }](assets/imgs/Dynamic_Keys.png)<br>
-*PointPerfect L-band dynamic keys. (Click to enlarge)*
-</center>
+<figure markdown>
+[![L-band Dynamic Keys](assets/imgs/Dynamic_Keys.png){ width="600" }](assets/imgs/Dynamic_Keys.png "Click to enlarge")
+<figcaption markdown>
+PointPerfect L-band dynamic keys.
+</figcaption>
+</figure>
 
 The ZED-F9P actually needs to know when the keys are valid **from**, rather than when they expire. Each key is walid for four weeks, so we need to work backwards 4 weeks from the expiry date.
 
 The current key expires at midnight (UTC) at the end of Friday September 23rd. This means it became valid 4 weeks earlier at midnight (UTC) on August 27th:
 
-<center>
-[![Dynamic Key expiry](assets/imgs/Key_Expiry.png){ width="200" }](assets/imgs/Key_Expiry.png)  [![Dynamic Key valid from](assets/imgs/Key_Valid_From.png){ width="200" }](assets/imgs/Key_Valid_From.png)<br>
-*Dynamic Key: Expiry and Valid From dates. (Click to enlarge)*
-</center>
+<figure markdown>
+[![Dynamic Key expiry](assets/imgs/Key_Expiry.png){ width="200" }](assets/imgs/Key_Expiry.png "Click to enlarge")
+<figcaption markdown>
+Dynamic Key expiry.
+</figcaption>
+</figure>
+
+<figure markdown>
+[![Dynamic Key valid from](assets/imgs/Key_Valid_From.png){ width="200" }](assets/imgs/Key_Valid_From.png "Click to enlarge")
+<figcaption markdown>
+Dynamic Key: Expiry and Valid From dates.
+</figcaption>
+</figure>
 
 Using the website recommended in the u-blox Application Note:
 

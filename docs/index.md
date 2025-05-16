@@ -9,7 +9,7 @@
 [![SparkFun GNSS Combo Breakout - ZED-F9P, NEO-D9S (Qwiic)](https://cdn.sparkfun.com/assets/parts/2/2/7/1/9/22560-_GPS_SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo_Breakout-_01.jpg){ width=90% }](https://www.sparkfun.com/products/22560)
 
 <center>
-[Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/products/22560){ .md-button .md-button--primary }
+[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/22560){ .md-button .md-button--primary }
 </center>
 </td>
 
@@ -34,13 +34,12 @@ Before you begin, you need to think about how you will use the SparkFun GNSS Com
 
 The Combo Breakout is a very versatile board, combining the u-blox ZED-F9P multi-band high precision GNSS module with the NEO-D9S L-band GNSS correction data receiver.
 
-<center>
-[![Hookup for u-center with two USB cables](assets/imgs/22560-GPS-SparkFun-u-blox-ZED-F9P-NEO-D9S-Combo-Breakout-05.jpg){ width="600" }](assets/imgs/22560-GPS-SparkFun-u-blox-ZED-F9P-NEO-D9S-Combo-Breakout-05.jpg)<br>
-*Hookup for u-center with two USB cables. (Click to enlarge)*
-</center>
-
-
-
+<figure markdown>
+[![Hookup for u-center with two USB cables](assets/imgs/22560-GPS-SparkFun-u-blox-ZED-F9P-NEO-D9S-Combo-Breakout-05.jpg){ width="600" }](assets/imgs/22560-GPS-SparkFun-u-blox-ZED-F9P-NEO-D9S-Combo-Breakout-05.jpg "Click to enlarge")
+<figcaption markdown>
+Hookup for u-center with two USB cables.
+</figcaption>
+</figure>
 
 If you intend to use [u-blox's u-center (GNSS evaluation software for Windows)](https://www.u-blox.com/en/product/u-center) to configure both the ZED-F9P and the NEO-D9S and log data from the ZED-F9P, all you need to get started is a pair of USB cables and a suitable antenna. u-blox have written an
 [excellent application note](https://www.u-blox.com/sites/default/files/documents/NEO-D9S_ZED-F9_Config_SPARTN_AppNote_UBX-22008160.pdf) which shows how to configure both modules using u-center.
@@ -93,10 +92,12 @@ The Combo Breakout has a single female SMA socket for the antenna connection. An
 
 ## Getting Started with Arduino
 
-<center>
-[![Hookup for Arduino using Qwiic](assets/imgs/22560-GPS-SparkFun-u-blox-ZED-F9P-NEO-D9S-Combo-Breakout-06.jpg){ width="600" }](assets/imgs/22560-GPS-SparkFun-u-blox-ZED-F9P-NEO-D9S-Combo-Breakout-06.jpg)<br>
-*Hookup for Arduino using Qwiic. (Click to enlarge)*
-</center>
+<figure markdown>
+[![Hookup for Arduino using Qwiic](assets/imgs/22560-GPS-SparkFun-u-blox-ZED-F9P-NEO-D9S-Combo-Breakout-06.jpg){ width="600" }](assets/imgs/22560-GPS-SparkFun-u-blox-ZED-F9P-NEO-D9S-Combo-Breakout-06.jpg "Click to enlarge")
+<figcaption markdown>
+Hookup for Arduino using Qwiic.
+</figcaption>
+</figure>
 
 It is also possible to power the board and communicate with it using I<sup>2</sup>C by connecting to either of the board's **Qwiic** connectors. SparkFun's [Qwiic Connect System](https://www.sparkfun.com/qwiic) uses 4-pin JST connectors, allowing you to quickly interface your development board to the Combo Board.
 

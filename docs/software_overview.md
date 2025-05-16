@@ -18,10 +18,12 @@ However, it is also possible to read the correction data from the NEO and push (
 
 PointPerfect data is delivered through Thingstream. The first step is to [register with Thingstream](https://portal.thingstream.io/register) and then request an L-Band plan:
 
-<center>
-[![PointPerfect Pricing](assets/imgs/PointPerfect_Pricing.png){ width="600" }](assets/imgs/PointPerfect_Pricing.png)<br>
-*PointPerfect pricing (correct at Sept. 14th 2022). (Click to enlarge)*
-</center>
+<figure markdown>
+[![PointPerfect Pricing](assets/imgs/PointPerfect_Pricing.png){ width="600" }](assets/imgs/PointPerfect_Pricing.png "Click to enlarge")
+<figcaption markdown>
+PointPerfect pricing (correct at Sept. 14th 2022).
+</figcaption>
+</figure>
 
 You can find the current pricing on [u-blox portal](https://portal.thingstream.io/pricing). Select **IoT Location-as-a-Service** and then **PointPerfect**.
 

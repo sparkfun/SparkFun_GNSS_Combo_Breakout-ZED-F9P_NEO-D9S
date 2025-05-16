@@ -1,7 +1,9 @@
-<center>
-[![Combo Breakout PCB](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Top.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Top.jpg)<br>
-*The Combo Breakout PCB. (Click to enlarge)*
-</center>
+<figure markdown>
+[![Combo Breakout PCB](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Top.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Top.jpg "Click to enlarge")
+<figcaption markdown>
+The Combo Breakout PCB.
+</figcaption>
+</figure>
 
 The u-blox ZED-F9P NEO-D9S Combo Breakout is a sophisticated yet compact GNSS board. The following is a summary of its features and functions:
 
@@ -10,46 +12,56 @@ The u-blox ZED-F9P NEO-D9S Combo Breakout is a sophisticated yet compact GNSS bo
     * Multi-band RTK with fast convergence times and reliable performance
     * Centimeter-level accuracy in a small and energy-efficient module
 
-<center>
-[![ZED-F9P](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-ZED-F9P.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-ZED-F9P.jpg)<br>
-*The ZED-F9P GNSS module. (Click to enlarge)*
-</center>
+<figure markdown>
+[![ZED-F9P](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-ZED-F9P.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-ZED-F9P.jpg "Click to enlarge")
+<figcaption markdown>
+The ZED-F9P GNSS module.
+</figcaption>
+</figure>
 
 * **`NEO-D9S`** - the NEO-D9S is a satellite data receiver for L-band correction broadcast
     * The NEO-D9S can be configured for use with a variety of L-band correction services including u-blox's PointPerfect service
     * It decodes the satellite transmission and outputs a correction stream directly to the ZED-F9P via UART2
 
-<center>
-[![NEO-D9S](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-NeoD9S.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-NeoD9S.jpg)<br>
-*The NEO-D9S correction data receiver. (Click to enlarge)*
-</center>
+<figure markdown>
+[![NEO-D9S](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-NeoD9S.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-NeoD9S.jpg "Click to enlarge")
+<figcaption markdown>
+The NEO-D9S correction data receiver.
+</figcaption>
+</figure>
 
 * **`UART2 TX and RX`** - the ZED-F9P and NEO-D9S UART2 TX and RX are interconnected (crossed-over) to allow the NEO to feed corrections directly to the ZED
     * The UART2 pins can be isolated if required by opening the **TX2** and **RX2** jumpers
     * Using UART2 to pass the correction data is recommended, but is optional. You can use UART1 or I<sup>2</sup>C instead if you want to. Our u-blox Arduino Library has an [example](https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3/tree/main/examples/NEO-D9S_and_NEO-D9C/Example2_LBand_Corrections_with_NEO-D9S) which shows how to read the correction data from the NEO-D9S and push it to the ZED-F9P using I<sup>2</sup>C.
 
-<center>
-[![UART2](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-UART2.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-UART2.jpg)<br>
-*The UART2 connections. (Click to enlarge)*
-</center>
+<figure markdown>
+[![UART2](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-UART2.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-UART2.jpg "Click to enlarge")
+<figcaption markdown>
+The UART2 connections.
+</figcaption>
+</figure>
 
 * **`Antenna Power Divider`** - the breakout has an on-board power divider (antenna splitter) to divide the satellite signals between the ZED and the NEO
     * The connector is SMA female (standard polarity)
     * 3.3V power is provided for an active antenna
 
-<center>
-[![Splitter](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Splitter.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Splitter.jpg)<br>
-*The antenna splitter (power divider). (Click to enlarge)*
-</center>
+<figure markdown>
+[![Splitter](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Splitter.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Splitter.jpg "Click to enlarge")
+<figcaption markdown>
+The antenna splitter (power divider).
+</figcaption>
+</figure>
 
 * **`Dual USB-C connections`** - one USB-C connector provides a direct connection to the ZED-F9P; the second provides a direct connection to the NEO-D9S
     * The board can be powered via either USB-C connector, or both
     * There is no on-board USB hub. Both ports can be connected simultaneously to the same computer, or different computers if desired
 
-<center>
-[![USB Connectors](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-USB-C.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-USB-C.jpg)<br>
-*The two USB-C connectors. (Click to enlarge)*
-</center>
+<figure markdown>
+[![USB Connectors](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-USB-C.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-USB-C.jpg "Click to enlarge")
+<figcaption markdown>
+The two USB-C connectors.
+</figcaption>
+</figure>
 
 * **`LED Indicators`** - the breakout has four LED indicators:
     * **3V3** Power
@@ -58,24 +70,30 @@ The u-blox ZED-F9P NEO-D9S Combo Breakout is a sophisticated yet compact GNSS bo
     * **TP**: Timing Pulse (Pulse Per Second)
     * Each LED can be disabled by opening the corresponding split pad jumper on the bottom of the breakout
 
-<center>
-[![LEDs](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-LEDs.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-LEDs.jpg)<br>
-*The LEDs. (Click to enlarge)*
-</center>
+<figure markdown>
+[![LEDs](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-LEDs.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-LEDs.jpg "Click to enlarge")
+<figcaption markdown>
+The LEDs.
+</figcaption>
+</figure>
 
 * **`Dual Qwiic Connectors`** - the breakout has two Qwiic (I<sup>2</sup>C) connectors allowing the breakout to be daisy-chained into your Qwiic project
 
-<center>
-[![Qwiic Connectors](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Qwiic.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Qwiic.jpg)<br>
-*The two Qwiic connectors. (Click to enlarge)*
-</center>
+<figure markdown>
+[![Qwiic Connectors](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Qwiic.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Qwiic.jpg "Click to enlarge")
+<figcaption markdown>
+The two Qwiic connectors.
+</figcaption>
+</figure>
 
 * **`Back-up Battery`** - a small rechargeable coin cell maintains the ZED-F9P battery-backed RAM while the power is disconnected
 
-<center>
-[![Back-up Battery](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Battery.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Battery.jpg)<br>
-*The rechargeable back-up battery. (Click to enlarge)*
-</center>
+<figure markdown>
+[![Back-up Battery](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Battery.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Battery.jpg "Click to enlarge")
+<figcaption markdown>
+The rechargeable back-up battery.
+</figcaption>
+</figure>
 
 * **`Full set of breakout pads`** - the breakout pads provide full access to the ZED-F9P and NEO-D9S pins 
     * I<sup>2</sup>C
@@ -87,19 +105,23 @@ The u-blox ZED-F9P NEO-D9S Combo Breakout is a sophisticated yet compact GNSS bo
     * ZED-F9P: TX_RDY, TP, GEO, RTK
     * Power: 5V and 3.3V
 
-<center>
-[![Breakout Pads](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Pads.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Pads.jpg)<br>
-*The breakout pads. (Click to enlarge)*
-</center>
+<figure markdown>
+[![Breakout Pads](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Pads.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Pads.jpg "Click to enlarge")
+<figcaption markdown>
+The breakout pads.
+</figcaption>
+</figure>
 
 ## Board Dimensions
 
 The board dimensions are illustrated in the drawing below. The listed measurements are in inches. The four mounting holes are compatible with 4-40 UNC or M3.0 screws.
 
-<center>
-[![Board Dimensions](assets/board_files/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S_Dimensions.png){ width="600" }](assets/board_files/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S_Dimensions.png)<br>
-*Board dimensions. (Click to enlarge)*
-</center>
+<figure markdown>
+[![Board Dimensions](assets/board_files/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S_Dimensions.png){ width="600" }](assets/board_files/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S_Dimensions.png "Click to enlarge")
+<figcaption markdown>
+Board dimensions.
+</figcaption>
+</figure>
 
 ## Left Edge Breakout Pads
 
@@ -271,10 +293,12 @@ With the SMA connector oriented to the 'top', the breakout pads along the bottom
 
 There are multiple jumpers on the back of the board that can be used to modify how the board functions.
 
-<center>
-[![Jumpers](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Jumpers.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Jumpers.jpg)<br>
-*The jumpers on the back of the function board. (Click to enlarge)*
-</center>
+<figure markdown>
+[![Jumpers](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Jumpers.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-Jumpers.jpg "Click to enlarge")
+<figcaption markdown>
+The jumpers on the back of the board.
+</figcaption>
+</figure>
 
 * **TX2** - open this jumper to isolate NEO-D9S RX2 from ZED-F9P TX2
 * **RX2** - open this jumper to isolate NEO-D9S TX2 from ZED-F9P RX2
@@ -297,17 +321,21 @@ If your antenna requires a higher voltage (or current):
 
 * Isolate **VCC_RF** by cutting the trace marked by the arrow symbols on the top of the PCB
 
-<center>
-[![VCC_RF](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-VCC-RF.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-VCC-RF.jpg)<br>
-*The VCC_RF trace. (Click to enlarge)*
-</center>
+<figure markdown>
+[![VCC_RF](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-VCC-RF.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-VCC-RF.jpg "Click to enlarge")
+<figcaption markdown>
+The VCC_RF trace.
+</figcaption>
+</figure>
 
 * Install inductor L1 - using a 0603 inductor with impedance >500 Ohms at 1.5 GHz
 
-<center>
-[![L1](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-L1.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-L1.jpg)<br>
-*The position of L1. (Click to enlarge)*
-</center>
+<figure markdown>
+[![L1](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-L1.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-L1.jpg "Click to enlarge")
+<figcaption markdown>
+The position of L1.
+</figcaption>
+</figure>
 
 * Inject a **clean** DC supply voltage between the **ANT PWR** breakout pad and **GND**
 
@@ -325,10 +353,12 @@ If this becomes necessary:
 
 Repeat for the NEO-D9S using the **SAFEBOOT NEO** test point.
 
-<center>
-[![Jumpers](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-SafeBoot.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-SafeBoot.jpg)<br>
-*The two SAFEBOOT test points. (Click to enlarge)*
-</center>
+<figure markdown>
+[![The two SAFEBOOT test points](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-SafeBoot.jpg){ width="600" }](assets/imgs/22560-SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo-SafeBoot.jpg "Click to enlarge")
+<figcaption markdown>
+The two SAFEBOOT test points.
+</figcaption>
+</figure>
 
 ## LED Indicators
 

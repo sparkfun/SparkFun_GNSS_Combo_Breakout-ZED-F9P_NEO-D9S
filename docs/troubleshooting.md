@@ -30,10 +30,12 @@ PointPerfect correction data in the USA.
 
 The PointPerfect GNSS augmentation service is available on a continental scale with seamless coverage in the contiguous USA, including up to 12 nautical miles  (~ 22 km) off coastlines.
 
-<center>
-[![PointPerfect Service Coverage](assets/imgs/pointperfect_coverage.jpg){ width="200" }](assets/imgs/pointperfect_coverage.jpg)<br>
-*PointPerfect Service Coverage. (Click to enlarge)*
-</center>
+<figure markdown>
+[![PointPerfect Service Coverage](assets/imgs/pointperfect_coverage.jpg){ width="200" }](assets/imgs/pointperfect_coverage.jpg "Click to enlarge")
+<figcaption markdown>
+PointPerfect Service Coverage.
+</figcaption>
+</figure>
 
 ### PointPerfect Satellite Broadcast
 
