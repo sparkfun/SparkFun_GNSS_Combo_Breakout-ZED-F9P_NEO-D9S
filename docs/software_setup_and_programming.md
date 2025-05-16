@@ -6,7 +6,7 @@
 SparkFun has an extensive library for its GNSS boards. You can obtain this library through the Arduino Library Manager by searching for "GNSS v3" and installing the latest version. If you prefer downloading libraries manually, you can grab them from the GitHub Repository.
 
 <center>
-[u-blox GNSS Arduino Library :fontawesome-solid-cart-plus:{ .heart }](https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3/archive/refs/heads/main.zip){ .md-button .md-button--primary }
+[u-blox GNSS Arduino Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3/archive/refs/heads/main.zip){ .md-button .md-button--primary }
 </center>
 
 

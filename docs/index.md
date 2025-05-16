@@ -9,7 +9,7 @@
 [![SparkFun GNSS Combo Breakout - ZED-F9P, NEO-D9S (Qwiic)](https://cdn.sparkfun.com/assets/parts/2/2/7/1/9/22560-_GPS_SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo_Breakout-_01.jpg){ width=90% }](https://www.sparkfun.com/products/22560)
 
 <center>
-[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/22560){ .md-button .md-button--primary }
+[Purchase from SparkFun](https://www.sparkfun.com/products/22560){ .md-button .md-button--primary }
 </center>
 </td>
 
@@ -21,7 +21,7 @@ The SparkFun GNSS Combo Breakout - ZED-F9P, NEO-D9S (Qwiic) (GPS-22560) combines
 </tr>
 </tbody>
 </table>
-</div class>
+</div>
 
 The Combo Breakout is designed to work with u-blox's PointPerfect L-band satellite GNSS augmentation service, which provides homogeneous coverage in contiguous USA.
 
