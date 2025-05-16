@@ -1,26 +1,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class="grid.cards.desc" markdown>
+<div class="grid cards desc" markdown>
 
-<table class="pdf" style="border-style:none;" markdown="1">
-<tbody markdown="1">
-<tr markdown="1">
-<td align="center" width="35%" markdown="block">
-[![SparkFun GNSS Combo Breakout - ZED-F9P, NEO-D9S (Qwiic)](https://cdn.sparkfun.com/assets/parts/2/2/7/1/9/22560-_GPS_SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo_Breakout-_01.jpg){ width=90% }](https://www.sparkfun.com/products/22560)
+- <figure markdown>
+    [![SparkFun GNSS Combo Breakout - ZED-F9P, NEO-D9S (Qwiic)](https://cdn.sparkfun.com/assets/parts/2/2/7/1/9/22560-_GPS_SparkFun_u-blox_ZED-F9P_NEO-D9S_Combo_Breakout-_01.jpg){ width=90% }](https://www.sparkfun.com/products/22560)
+		</figure>
 
-<center>
-[Purchase from SparkFun](https://www.sparkfun.com/products/22560){ .md-button .md-button--primary }
-</center>
-</td>
-
-<td>
-The SparkFun GNSS Combo Breakout - ZED-F9P, NEO-D9S (Qwiic) (GPS-22560) combines the u-blox ZED-F9P multi-band high precision GNSS module with the NEO-D9S L-band GNSS correction data receiver. With a clear view of the sky, especially a clear view to the South, this combo breakout will deliver centimeter-level accuracy positioning without needing separate RTK or NTRIP corrections. An on-board splitter (power divider) allows you to connect both modules to a single L1/L2 L-Band antenna.
+    <center>
+    [Purchase from SparkFun](https://www.sparkfun.com/products/22560){ .md-button .md-button--primary }
+    </center>
 
 
-</td>
-</tr>
-</tbody>
-</table>
+- The SparkFun GNSS Combo Breakout - ZED-F9P, NEO-D9S (Qwiic) (GPS-22560) combines the u-blox ZED-F9P multi-band high precision GNSS module with the NEO-D9S L-band GNSS correction data receiver. With a clear view of the sky, especially a clear view to the South, this combo breakout will deliver centimeter-level accuracy positioning without needing separate RTK or NTRIP corrections. An on-board splitter (power divider) allows you to connect both modules to a single L1/L2 L-Band antenna.
+
 </div>
 
 The Combo Breakout is designed to work with u-blox's PointPerfect L-band satellite GNSS augmentation service, which provides homogeneous coverage in contiguous USA.

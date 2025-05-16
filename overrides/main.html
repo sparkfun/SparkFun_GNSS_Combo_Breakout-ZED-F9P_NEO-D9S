@@ -3,13 +3,11 @@
 {% block content %}
 
 <!-- Adds file-eye icon to view hookup guide as a single page -->
-{% if "single_page.md" %}
-    <a href="/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/single_page" title="View Guide as Single-Page" class="md-content__button md-icon">
-        {% include ".icons/material/file-eye-outline.svg" %}
-        <!-- .icons/fontawesome/solid/scroll.svg -->
-    </a>
+{% if "print_view.md" %}
+  <a href="/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/print_view" title="View as Single-Page" class="md-content__button md-icon">
+    {% include ".icons/material/printer-eye.svg" %}
+  </a>
 {% endif %}
-
 
 {{ super() }}
 {% endblock content %}

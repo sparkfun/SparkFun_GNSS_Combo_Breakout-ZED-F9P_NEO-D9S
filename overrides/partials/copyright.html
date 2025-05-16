@@ -1,5 +1,5 @@
 <!--
-  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+  Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to
@@ -20,33 +20,16 @@
   IN THE SOFTWARE.
 -->
 
-{% import "partials/tabs-item.html" as item with context %}
-
-<!-- Navigation tabs -->
-<nav
-  class="md-tabs"
-  aria-label="{{ lang.t('tabs') }}"
-  data-md-component="tabs"
->
-  <div class="md-tabs__inner md-grid">
-
-  <!-- Adds tab on right side of header -->
-  {% if "print_view.md" %}
-  <ul class="md-tabs__list" style="float: right;">
-    <li class="md-tabs__item">
-    <a href="/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/print_view/" class="md-tabs__link">
-      🖨️ Print View
-    <!-- &nbsp;{% include ".icons/material/book-open-variant.svg" %} -->
-    </a>
-    </li>
-  </ul>
+<!-- Copyright and theme information -->
+<div class="md-copyright">
+  {% if config.copyright %}
+    <div class="md-copyright__highlight">
+      {{ config.copyright }}
+    </div>
   {% endif %}
-
-  <!-- Original tabbed sections -->
-  <ul class="md-tabs__list">
-    {% for nav_item in nav %}
-    {{ item.render(nav_item) }}
-    {% endfor %}
-  </ul>
-  </div>
-</nav>
+  {% if not config.extra.generator == false %}
+  {% if not config.extra.generator == "right" %}
+    {% include "partials/generator.html" %}
+  {% endif %}
+  {% endif %}
+</div>

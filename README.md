@@ -1,11 +1,11 @@
 # SparkFun u-blox ZED-F9P NEO-D9S Combo Breakout
 
 <p align="center">
-  <a href="https://github.com/sparkfunX/u-blox_ZED-F9P_NEO-D9S_Combo_Breakout/issues" alt="Issues">
-    <img src="https://img.shields.io/github/issues/sparkfunX/u-blox_ZED-F9P_NEO-D9S_Combo_Breakout.svg" /></a>
-  <a href="https://github.com/sparkfunX/u-blox_ZED-F9P_NEO-D9S_Combo_Breakout/actions" alt="Actions">
-    <img src="https://github.com/sparkfunX/u-blox_ZED-F9P_NEO-D9S_Combo_Breakout/actions/workflows/mkdocs.yml/badge.svg" /></a>
-  <a href="https://github.com/sparkfunX/u-blox_ZED-F9P_NEO-D9S_Combo_Breakout/blob/main/LICENSE.md" alt="License">
+  <a href="https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/issues" alt="Issues">
+    <img src="https://img.shields.io/github/issues/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S.svg" /></a>
+  <a href="https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/actions" alt="Actions">
+    <img src="https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/actions/workflows/build_documentation.yml/badge.svg" /></a>
+  <a href="https://github.com/sparkfun/SparkFun_GNSS_Combo_Breakout-ZED-F9P_NEO-D9S/blob/main/LICENSE.md" alt="License">
     <img src="https://img.shields.io/badge/license-CC%20BY--SA%204.0-EF9421.svg" /></a>
   <a href="https://twitter.com/intent/follow?screen_name=sparkfun">
     <img src="https://img.shields.io/twitter/follow/sparkfun.svg?style=social&logo=twitter" alt="follow on Twitter"></a>
