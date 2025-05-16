@@ -25,8 +25,8 @@ The SparkFun GNSS Combo Breakout - ZED-F9P, NEO-D9S (Qwiic) (GPS-22560) combines
 
 The Combo Breakout is designed to work with u-blox's PointPerfect L-band satellite GNSS augmentation service, which provides homogeneous coverage in contiguous USA.
 
-!!! attention
-    u-blox provides products and services to "B2B Customers". Only business customers are eligible to register for a Thingstream (PointPerfect) account. You may be required to demonstrate that the use of the combo breakout is in relation to your trade, business, craft or profession. u-blox products and services are not intended for individual consumer use.
+!!! warning
+    u-blox provides products and services to "B2B Customers". Only business customers are eligible to register for a Thingstream (PointPerfect) account. You may be required to demonstrate that the use of the combo breakout is in relation to your trade, business, craft or profession. u-blox products and services are not intended for individual consumer use. Please check the [u-blox Service Terms](https://cdn.sparkfun.com/assets/2/5/a/4/f/Service_Terms.pdf) before purchasing hardware.
 
 ## Required Materials
 
