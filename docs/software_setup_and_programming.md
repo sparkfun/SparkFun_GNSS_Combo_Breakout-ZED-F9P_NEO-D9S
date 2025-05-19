@@ -11,6 +11,7 @@ SparkFun has an extensive library for its GNSS boards. You can obtain this libra
 </center>
 </div>
 
+<a class="md-button md-button--primary" href="https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3/archive/refs/heads/main.zip" target="_blank" rel="noopener">u-blox GNSS Arduino Library</a>
 
 ## NEO-D9S Configuration
 
