@@ -1,6 +1,6 @@
 
 !!! attention
-	If this is your first time using Arduino, please review our tutorial on [installing the Arduino IDE](https://learn.sparkfun.com/tutorials/installing-arduino-ide). If you have not previously installed an Arduino library, please check out our [installation guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library).
+    If this is your first time using Arduino, please review our tutorial on [installing the Arduino IDE](https://learn.sparkfun.com/tutorials/installing-arduino-ide). If you have not previously installed an Arduino library, please check out our [installation guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library).
 
 
 SparkFun has an extensive library for its GNSS boards. You can obtain this library through the Arduino Library Manager by searching for "GNSS v3" and installing the latest version. If you prefer downloading libraries manually, you can grab them from the GitHub Repository.
