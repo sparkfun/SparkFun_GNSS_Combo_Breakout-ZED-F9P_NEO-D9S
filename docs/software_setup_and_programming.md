@@ -5,13 +5,9 @@
 
 SparkFun has an extensive library for its GNSS boards. You can obtain this library through the Arduino Library Manager by searching for "GNSS v3" and installing the latest version. If you prefer downloading libraries manually, you can grab them from the GitHub Repository.
 
-<div markdown>
 <center>
-[u-blox GNSS Arduino Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3/archive/refs/heads/main.zip){ .md-button .md-button--primary }
+<a class="md-button md-button--primary" href="https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3/archive/refs/heads/main.zip" target="_blank" rel="noopener">u-blox GNSS Arduino Library v3</a>
 </center>
-</div>
-
-<a class="md-button md-button--primary" href="https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3/archive/refs/heads/main.zip" target="_blank" rel="noopener">u-blox GNSS Arduino Library</a>
 
 ## NEO-D9S Configuration
 
