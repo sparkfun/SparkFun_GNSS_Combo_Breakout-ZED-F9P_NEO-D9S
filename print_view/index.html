@@ -1535,10 +1535,11 @@ describes in detail: the configuration of both NEO and ZED; and how to interpret
 <p>If this is your first time using Arduino, please review our tutorial on <a href="https://learn.sparkfun.com/tutorials/installing-arduino-ide" target="_blank" rel="noopener">installing the Arduino IDE</a>. If you have not previously installed an Arduino library, please check out our <a href="https://learn.sparkfun.com/tutorials/installing-an-arduino-library" target="_blank" rel="noopener">installation guide</a>.</p>
 </div>
 <p>SparkFun has an extensive library for its GNSS boards. You can obtain this library through the Arduino Library Manager by searching for "GNSS v3" and installing the latest version. If you prefer downloading libraries manually, you can grab them from the GitHub Repository.</p>
+<div class="grid cards desc">
 <center>
-[u-blox GNSS Arduino Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3/archive/refs/heads/main.zip){ .md-button .md-button--primary }
-</center>
-
+  [u-blox GNSS Arduino Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3/archive/refs/heads/main.zip){ .md-button .md-button--primary }
+  </center>
+</div>
 <h2 id="neo-d9s-configuration">NEO-D9S Configuration<a class="headerlink" href="#neo-d9s-configuration" title="Permanent link"></a></h2>
 <p>The first step is to declare the <strong><code>SFE_UBLOX_GNSS</code></strong> object. Like most Arduino sketches, this is done at a global scope (after the include file declaration), not within the <code>setup()</code> or <code>loop()</code> functions. </p>
 <div class="language-C++ highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;SparkFun_u-blox_GNSS_v3.h&gt;</span><span class="c1"> //http://librarymanager/All#SparkFun_u-blox_GNSS_v3</span>
